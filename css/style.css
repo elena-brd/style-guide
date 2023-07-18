@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E1A50;
+    background: #fbfbfb;
+}
+
+.text-italic {
+    font-style: italic;
+    color: #767E96;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+
+/* container */
+.container {
+    background: #fff;
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem auto;
+}
+
+
+/* style info / span */
+.style-info span {
+    background: #ececec;
+    color: #767E96;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.8rem 0.2rem 1rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.style-info {
+    margin: 2rem 0 2rem;
+}
+
+/* cards */
+.card-left,
+.card-right {
+    border-left: 2px solid #ececec;
+}
+
+/* buttons */
+.btns button {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+    margin-right: 1rem;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 1.5rem;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background: #1E1A50;
+    color: #f4f4f4;
+}
+
+.btn-secondary {
+    background: #ececec;
+    color: #1E1A50;
+}
+
+.btn-hover {
+    box-shadow: 0px 1px 4px 1px #ccc;
+}
+
+/* form */
+.form-column {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+}
+
+.form-column label {
+    display: flex;
+    font-size: 0.8rem;
+    color: #1E1A50;
+    font-weight: 600;
+}
+
+.form-column input {
+    padding: 0.3rem 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-column input::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
+
+/* white card */
+.card-white-container {
+    display: flex;
+    margin-left: 1.5rem;
+}
+
+.card-white-container>div {
+    margin-right: 1rem;
+}
+
+.white-card {
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 100px;
+    margin: 0.5rem 0;
+}
+
+.hover-card {
+    box-shadow: 0px 1px 4px 1px #ccc;
+}
+
+/* box */
+.box-column {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1.5rem;
+}
+
+.box {
+    margin-left: 1.5rem;
+    border: 1px solid #ccc;
+    width: 70px;
+    height: 70px;
+    margin: 0.5rem 0;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.box-1 {
+    background: #242E4C;
+}
+
+.box-2 {
+    background: #738BFD;
+}
+
+.box-3 {
+    background: #F55623;
+}
+
+.box-4 {
+    background: #767E96;
+}
+
+.box-5 {
+    background: #E9EAED;
+    color: #1E1A50;
+}
+
+.box-6 {
+    background: #F3F4F6;
+    color: #1E1A50;
+}
+
+/* fonts */
+.fonts {
+    margin-left: 1.5rem;
+}
+
+.fonts p {
+    margin: 0.8rem 0;
+}
+
+.title {
+    color: #1E1A50;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.secondary-title {
+    color: #1E1A50;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tertiary-title {
+    color: #1A2950;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: #738BFD;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input-text {
+    color: #767E96;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.basic-paragraph {
+    font-size: 12px;
+    color: #1A2950;
+    font-weight: 500;
+}
+
+.board {
+    color: #767E96;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.alert {
+    color: #F55623;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* icons */
+.icons-cards {
+    margin-left: 1.5rem;
+}
+
+.icons-cards ul {
+    display: flex;
+}
+
+.icons-cards ul li {
+    margin-right: 1rem;
+}
